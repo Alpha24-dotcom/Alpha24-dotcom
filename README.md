@@ -1,10 +1,16 @@
-- 👋 Hi, I’m @Alpha24-dotcom
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+# program to calculate the sum of numbers
+# until the user enters zero
 
-<!---
-Alpha24-dotcom/Alpha24-dotcom is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+total = 0
+
+number = int(input('Enter a number: '))
+
+# add numbers until number is zero
+while number != 0:
+    total += number    # total = total + number
+    
+    # take integer input again
+    number = int(input('Enter a number: '))
+    
+
+print('total =', total)
